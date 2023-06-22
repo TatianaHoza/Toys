@@ -11,10 +11,11 @@ public class Main {
         toys[2] = new Toy(3, "Doll", 0.5);
 
         for (Toy toy : toys) {
-            Program.displayInfo(toy);
+            Program.get(new Toy[]{toy});
         }
 
 
+ }
 
-    }
+
 }
